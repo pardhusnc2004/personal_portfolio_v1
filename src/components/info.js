@@ -9,7 +9,10 @@ export function Info() {
                     <div>Hello! My name is</div>
                     <div style={{fontWeight: "600px", fontSize: "40px"}}>Pardhasaradhi Polisetty</div>
                     <div style={{color: "#ccd6f6"}}>I am an aspiring software engineer currently pursuing my undergraduate degree. With a strong skill set and a passion for technology, I am dedicated to advancing my career in software development.<span class="blinking">|</span></div>
-                    <div className='col-md-7 d-flex align-items-center justify-content-center'><Link className='btn btn-light mt-4' to="/about">Checkout More</Link><a href='mailto:pardhasaradhi.polisetty@outlook.com' target='_blank'> <div className='btn btn-outline-light mt-4 ms-4'>Hire Me</div></a></div>
+                    <div className='col-md-10 d-flex align-items-center justify-content-center'>
+                        <Link className='btn btn-light mt-4' to="/about">Checkout More</Link>
+                        {/* <a href='mailto:pardhasaradhi.polisetty@outlook.com' target='_blank'> <div className='btn btn-outline-light mt-4 ms-4'>Hire Me</div></a> */}
+                    </div>
                 </div>
                 <div className="d-flex col-md-5 col-12 mt-3"  style={{paddingBottom: "60px"}}>
                     <div className='image-holder'>

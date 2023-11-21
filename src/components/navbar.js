@@ -3,6 +3,7 @@ import '../styles/home.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import logo from './mainlogo.png'
 
 const iconStyle = {
   color: 'white',
@@ -27,7 +28,7 @@ export class Navbar extends Component {
 
   handleOptionClick = () => {
     this.setState({
-      isToggled: false, // Close the Navbar when an option is clicked
+      isToggled: false,
     });
   };
 
@@ -37,7 +38,7 @@ export class Navbar extends Component {
     return (
       <nav className={`navbar navbar-expand-lg fixed-top ${isToggled ? 'navbar-responsive' : null}`}>
         <div className="container">
-          <a className="navbar-brand" style={{ color: "#ccd6f6", width: "100%" }}>{'<' + 'pardhu' + ' />'}<span className="blinking"> |</span></a>
+          <Link to="/" className="navbar-brand" style={{ color: "#ccd6f6", width: "100%" }}> <img src={logo} alt="pardhu" style={{maxWidth:"140px"}} /> </Link>
           <button className="navbar-toggler" onClick={this.handleTogglerClick} style={{ position: 'absolute', right: '0', width: "20px"}}>
             <FontAwesomeIcon icon={faBars} style={iconStyle} />
           </button>

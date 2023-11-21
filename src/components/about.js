@@ -20,7 +20,7 @@ export function About() {
                     <div className='edu-card'>
                         <h6 className='text-center'>VIT-AP University</h6>
                         <div>2021 - present</div>
-                        <div>CGPA: 9.11</div>
+                        <div>CGPA: 9.25</div>
                     </div>
                 </div>
                 <div className="row my-3  col-md-3 mx-1">
