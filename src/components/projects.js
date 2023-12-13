@@ -16,7 +16,7 @@ export function Projects() {
                         </ul>
                         <span className='d-flex flex-wrap mt-2'>Skills acquired: <span style={{backgroundColor:"red"}} className='skill-card'>Showcasing projects</span> <span style={{backgroundColor:"red"}} className='skill-card'>Problem solving</span> <span style={{backgroundColor:"red"}} className='skill-card'>Version control</span> <span style={{backgroundColor:"red"}} className='skill-card'>Deoloyment</span></span>
                         <p className='d-flex flex-wrap mt-2'>Technologies used: <span className='skill-card'>React</span> <span className='skill-card'>Bootstrap</span></p>
-                        <div className='d-flex justify-content-evenly'><a target='blank' href=''>GitHub Repo</a><a target='blank' href=''>Live Link</a></div>
+                        <div className='d-flex justify-content-evenly'><a target='blank' href='https://github.com/pardhusnc2004/personal_portfolio_v1'>GitHub Repo</a><a target='blank' href='https://personal-portfolio-v1-sigma.vercel.app/'>Live Link</a></div>
                     </div>
                 </div>
                 <div className='col-md-8'>
