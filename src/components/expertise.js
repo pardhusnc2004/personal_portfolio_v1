@@ -33,31 +33,15 @@ export const Expertise = () => {
             <div className='col-md-9 mt-3'> Efficiently managing code repositories and collaborative development using Git and GitHub.</div>
         </div>
       </div>
-      <h5 className="text-center mt-5">Global Expertise</h5>
+      <h5 className="text-center mt-5">Global Expertise and Certifications</h5>
       <div className='row d-flex justify-content-center'>
-        <div className='row'>
-            <div className='col-md-2 d-flex justify-content-center'>
-                <a target='_blank' href='https://www.hackerrank.com/pardupolisetty21'><FontAwesomeIcon className='mt-3' style={icon2style} icon={faHackerrank}/></a>
+        <div className='row d-flex justify-content-center my-3'>
+            <div className='col-md-2'>
+                <b>MERN Stack</b>
             </div>
-            <div className='col-md-10 mt-4'>Participating in coding competitions on platforms like HackerRank to improve problem-solving skills and algorithmic thinking.</div>
-        </div>
-        <div className='row'>
-        <div className='col-md-2 d-flex justify-content-center'>
-            <a target='_blank' href='https://github.com/pardhusnc2004'><FontAwesomeIcon className='mt-3' style={icon2style} icon={faGithub}/></a>
-        </div>
-        <div className='col-md-10 mt-3'>Consistently contributing to open-source projects on GitHub and actively participating in the developer community to collaborate, share knowledge, and improve coding skills.</div>
-        </div>
-        <div className='row'>
-            <div className='col-md-2 d-flex justify-content-center'>
-                <a target='_blank' href='https://codesandbox.io/u/LightningMcQueen95'><FontAwesomeIcon className='mt-3' style={icon2style} icon={faCube}/></a>
+            <div className='col-md-8'>
+                <p>"I have a certification in MERN Full Stack Development by Ethnus. During this program, I successfully developed a Movie Ticket Booking System using the MERN stack. This project encompassed the implementation of a secure authentication system, CRUD operations, and responsive design using React.js. Node.js, Express.js, and MongoDB ensured the development of an efficient backend logic, secure data storage, and scalable architecture. This hands-on experience not only enhanced my collaboration skills but also deepened my proficiency in the MERN stack, expanding my knowledge of ES6 and strengthening my problem-solving abilities."</p>
             </div>
-            <div className='col-md-10 mt-3'>Getting started with CodeSandbox for web development projects, making it easy to experiment with code and learn web technologies.</div>
-        </div>
-        <div className='row'>
-            <div className='col-md-2 d-flex justify-content-center'>
-                <a target='_blank' href='https://codepen.io/pardhu-polisetty'><FontAwesomeIcon className='mt-3' style={icon2style} icon={faCodepen}/></a>
-            </div>
-            <div className='col-md-10 mt-3'>Showcasing front-end development skills by creating interactive and visually appealing web projects on CodePen, with a focus on HTML, CSS, and JavaScript.</div>
         </div>
       </div>
     </div>

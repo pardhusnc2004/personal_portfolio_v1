@@ -38,7 +38,7 @@ export class Navbar extends Component {
     return (
       <nav className={`navbar navbar-expand-lg fixed-top ${isToggled ? 'navbar-responsive' : null}`}>
         <div className="container">
-          <Link to="/" className="navbar-brand" style={{ color: "#ccd6f6", width: "100%" }}> <img src={logo} alt="pardhu" style={{maxWidth:"140px"}} /> </Link>
+          <Link to="/" className="navbar-brand" style={{ color: "#ccd6f6", width: "100%" }}> pardhu.exe </Link>
           <button className="navbar-toggler" onClick={this.handleTogglerClick} style={{ position: 'absolute', right: '0', width: "20px"}}>
             <FontAwesomeIcon icon={faBars} style={iconStyle} />
           </button>
@@ -52,6 +52,9 @@ export class Navbar extends Component {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" style={{ color: "#ccd6f6" }} to="/skills" onClick={this.handleOptionClick}>Skills</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" style={{ color: "#ccd6f6" }} to="/projects" onClick={this.handleOptionClick}>Projects</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" style={{ color: "#ccd6f6" }} to="/expertise" onClick={this.handleOptionClick}>Expertise</Link>

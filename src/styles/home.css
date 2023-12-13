@@ -101,3 +101,13 @@
 .edu-card:hover {
     transform: scale(1.02);
 }
+
+.skill-card {
+    background-color: #3498db;
+    font-size: small;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}

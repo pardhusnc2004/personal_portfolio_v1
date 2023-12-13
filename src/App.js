@@ -8,6 +8,7 @@ import { About } from './components/about';
 import { Skills } from './components/skills';
 import { Expertise } from './components/expertise';
 import { Footer } from './components/footer';
+import { Projects } from './components/projects';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route path="" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/skills" element={<Skills />} />
+              <Route path="/projects" element={<Projects />} />
               <Route path="/expertise" element={<Expertise />}/>
             </Routes>
             <Footer />
